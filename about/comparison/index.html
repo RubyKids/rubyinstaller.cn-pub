@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Comparison</title>
+  <meta name="description" content="这是为你准备的吗?">
+
+  <link rel="icon" type="image/png" href="/assets/favicon.png">
+  <link rel="stylesheet" href="/styles/blueprint/screen.css" type="text/css" media="screen, projection">
+  <link rel="stylesheet" href="/styles/blueprint/print.css" type="text/css" media="print">
+  <link rel="stylesheet" href="/styles/site.css" type="text/css" media="screen, projection, print">
+  <script type="text/javascript" src="/assets/jquery.min.js"></script>
+  <!--script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script-->
+  <script type="text/javascript" src="/assets/application.js"></script>
+
+  <link rel="canonical" href="/about/comparison/">
+  <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="RubyInstaller for Windows" />
+
+  
+</head>
+
+  <body>
+    <div id="page-sub">
+  <div id="header" class="container">
+  <div id="logo" class="span-10">
+    <h1><a href="/" title="To Homepage"><span/></a></h1>
+  </div>
+  <div class="span-14 last">
+    <ul id="navbar">
+      <li id="active"><a href="/about">关于</a></li>
+      <li ><a href="/downloads">下载</a></li>
+      <li><a href="https://gitee.com/RubyKids/rubyinstaller-issue">反馈</a></li>
+    </ul>
+  </div>
+  
+  <a href="https://gitee.com/RubyKids/rubyinstaller.cn-website"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://gitee.com/RubyKids/rubyinstaller.cn-website/widgets/widget_1.svg" alt="Fork me on Gitee"></a>
+</div>
+
+  <div id="graphic_sub" class="container clear">
+  <div class="span-15">
+    <h1></h1>
+  </div>
+  <div class="span-9 last">
+    <img id="gembox" src="/assets/gembox_sub.png" height="83" width="310" alt="Box of gems pic">
+  </div>
+</div>
+
+
+  <div id="main" class="container clear">
+    <div class="span-7">
+  <div id="left_content_sub">
+  <ul id="subnavbar">
+    
+    
+      
+        <li><a href="/about/">介绍</a></li>
+      
+    
+      
+        <li class='current'><span>这是为你准备的吗?</span></li>
+      
+    
+      
+        <li><a href="/about/contributors/">贡献者</a></li>
+      
+    
+  </ul>
+</div>
+
+</div>
+
+<div class="span-17 last">
+  <div id="right_content_sub">
+    <h2 id="这是为你准备的吗">这是为你准备的吗?</h2>
+
+<p>RubyInstaller是Windows上最简单、应用最广泛的Ruby环境。<a href="https://www.ruby-lang.org">Ruby</a>是一种<a href="http://www.bestprogramminglanguagefor.me/why-learn-ruby">很棒的语言</a>适合初学者和专业人士。它既适用于小型脚本，也适用于大型应用程序。</p>
+
+<p>RubyInstaller将本机Windows程序的可能性与丰富的UNIX工具集<a href="http://www.msys2.org">MSYS2</a>以及<a href="https://github.com/Alexpux/MINGW-packages">大型的MINGW库</a>结合起来。</p>
+
+<p>RubyInstaller是使用Ruby进行开发和生产的一种很好的方法，特别是当您只想使用Ruby进行日常脚本编写或需要访问Windows资源（如硬件设备、DLL、OLE、图形用户界面或GPU）时。</p>
+
+<p><br /></p>
+
+<h3 id="对比">对比</h3>
+
+<p>尽管Ruby社区一直在努力使在Windows上使用Ruby的体验尽可能流畅，但与Linux或MacOS相比，它仍然比较慢，也不太方便。一些缺点是由于某些Windows操作系统内部(比如它糟糕的shell支持)造成的，而另一些缺点则是由于许多Ruby开发人员只喜欢UNIX风格的系统。</p>
+
+<p><br /></p>
+
+<p><a href="https://ubuntu.com"><strong>Ubuntu Linux</strong></a>或<a href="https://www.apple.com/de/macos/what-is/"><strong>MacOS</strong></a>非常适合作为Ruby开发平台。它们提供了最好的整体Ruby体验。如果您将Ruby用于一个更大的项目，您可能会考虑迁移到这些操作系统中的一个。</p>
+
+<p>Ruby在跨平台开发方面很强大，因此在Linux上使用Ruby进行开发和在Windows上使用RubyInstaller进行生产都很容易，反之亦然。</p>
+
+<p><a href="https://docs.microsoft.com/en-us/windows/wsl/about"><strong>用于Linux的Windows子系统</strong></a>在Windows上提供Linux环境。</p>
+
+<p>大多数Linux可用的开发工具都可以直接在WSL中使用。它非常适合使用Rails进行web开发，并提供网络和文件系统访问，但是对硬件设备的访问以及与本地Windows软件的互操作性都非常有限。</p>
+
+<p>Ruby可以作为一个软件包从选定的Linux发行版(通常是Ubuntu)或通过<a href="https://gitee.com/RubyKids/rbenv-cn">rbenv</a>安装或者类似的Ruby版本管理器。</p>
+
+<p>请注意: WSL不适合生产使用。</p>
+
+<p><a href="https://www.cygwin.com/"><strong>Cygwin</strong></a>是RubyInstaller的另一个替代品。</p>
+
+<p>它在Windows上提供了POSIX环境。Ruby可以与许多其他工具一起安装，但是Cygwin不能直接执行任意Linux二进制文件（与WSL相反）。Cygwin与RubyInstaller相比只提供了一些优势，比如更好的shell和通用UTF-8支持。但是它速度较慢，并且使得访问Windows的本机资源更加困难。</p>
+
+  </div>
+</div>
+
+  </div>
+  <div id="footer" class="container clear">
+  <div id="copyright" class="span-12 last">
+    <ul>
+      <li>Copyright © 2021 rubyinstaller.cn</li>
+    </ul>
+  </div>
+</div>
+
+</div>
+
+  </body>
+</html>

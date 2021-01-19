@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-01-19T21:25:33+08:00</updated><id>/feed.xml</id><title type="html">RubyInstaller for Windows</title><subtitle>Windows上安装Ruby的最简单方式
+这是一个独立的基于Windows的安装程序，包括Ruby语言、执行环境、重要文档等。
+</subtitle><entry><title type="html">RubyInstaller.cn 上线了!</title><link href="/2021/01/19/rubyinstaller.cn-is-on.html" rel="alternate" type="text/html" title="RubyInstaller.cn 上线了!" /><published>2021-01-19T00:00:00+08:00</published><updated>2021-01-19T00:00:00+08:00</updated><id>/2021/01/19/rubyinstaller.cn-is-on</id><content type="html" xml:base="/2021/01/19/rubyinstaller.cn-is-on.html">&lt;p&gt;rubyinstaller.cn 上线了! 该网站并不是 &lt;a href=&quot;rubyinstaller.org&quot;&gt;rubyinstaller.org&lt;/a&gt; 的全部镜像，而是提供其上许多下载链接的镜像，帮助国内用户下载使用Ruby。本站处于试运行阶段，欢迎在  &lt;a href=&quot;https://gitee.com/RubyKids/rubyinstaller-issue&quot;&gt;issue&lt;/a&gt;提交反馈，接受任何形式的赞助和支持。&lt;/p&gt;</content><author><name>ccmywish</name></author><summary type="html">rubyinstaller.cn 上线了! 该网站并不是 rubyinstaller.org 的全部镜像，而是提供其上许多下载链接的镜像，帮助国内用户下载使用Ruby。本站处于试运行阶段，欢迎在 issue提交反馈，接受任何形式的赞助和支持。</summary></entry><entry><title type="html">RubyInstaller 3.0.0-1 发布了!</title><link href="/2020/12/27/rubyinstaller-3.0.0-1-released.html" rel="alternate" type="text/html" title="RubyInstaller 3.0.0-1 发布了!" /><published>2020-12-27T00:00:00+08:00</published><updated>2020-12-27T00:00:00+08:00</updated><id>/2020/12/27/rubyinstaller-3.0.0-1-released</id><content type="html" xml:base="/2020/12/27/rubyinstaller-3.0.0-1-released.html">&lt;p&gt;RubyInstaller-3.0.0-1 发布了!
+新版本伴随了大量的新功能以及改善。查看&lt;a href=&quot;https://www.ruby-lang.org/en/news/2020/12/25/ruby-3-0-0-released/&quot;&gt;ruby-3.0.0 release post&lt;/a&gt; 来获取更具体的信息。&lt;/p&gt;
+
+&lt;p&gt;Ruby-3.0.0 完成了在Windows上将UTF-8作为主要字符编码的转变。这个功能为文件系统和环境变量启用了完整的Unicode字符集，并增加了与其他工具和操作系统的兼容性。&lt;/p&gt;
+
+&lt;p&gt;请注意，有一些gems在Windows上还未能与Ruby-3.0完全兼容，这种情况下你也许依然要使用Ruby 2.7，直到 3.0 版本被完全支持。&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;不能&lt;/b&gt; 直接使用 RubyInstaller-3.0.x 将目标目录放在之前存在的 RubyInstaller-2.6.x or 2.7.x 安装目录下来完成更新。因为伴随有C扩展的gem在ruby-2.7和3.0中不兼容。最好使用一个新目录来安装 3.0.x&lt;/p&gt;
+
+&lt;p&gt;所有的文件都可以在&lt;a href=&quot;/downloads/&quot;&gt;下载页面&lt;/a&gt;找到!&lt;/p&gt;</content><author><name>Lars Kanis, ccmywish</name></author><summary type="html">RubyInstaller-3.0.0-1 发布了! 新版本伴随了大量的新功能以及改善。查看ruby-3.0.0 release post 来获取更具体的信息。</summary></entry><entry><title type="html">RubyInstaller 2.7.2-1, 2.6.6-2 和 2.5.8-2 发布了!</title><link href="/2020/10/06/rubyinstaller-2.7.2-1-2.6.6-2-and-2.5.8-2-released.html" rel="alternate" type="text/html" title="RubyInstaller 2.7.2-1, 2.6.6-2 和 2.5.8-2 发布了!" /><published>2020-10-06T00:00:00+08:00</published><updated>2020-10-06T00:00:00+08:00</updated><id>/2020/10/06/rubyinstaller--2.7.2-1-2.6.6-2-and-2.5.8-2-released</id><content type="html" xml:base="/2020/10/06/rubyinstaller-2.7.2-1-2.6.6-2-and-2.5.8-2-released.html">&lt;p&gt;RubyInstaller 版本 2.7.2-1, 2.6.6-2 和 2.5.8-2 发布了!这些是维护版本(主要修复bug以及安全问题)&lt;/p&gt;
+
+&lt;p&gt;这个版本解决了一些 &lt;a href=&quot;https://github.com/oneclick/rubyinstaller2/issues/184&quot;&gt;最近的issues&lt;/a&gt; 它们主要与MSYS2包安装和MSYS2更新有关。&lt;/p&gt;
+
+&lt;p&gt;它添加了RI文档作为可选的安装组件，该组件很好地集成到Ruby-2.7上的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;irb&lt;/code&gt;中，并改进了&lt;a href=&quot;https://github.com/oneclick/rubyinstaller2/wiki/The-ridk-tool&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ridk use&lt;/code&gt;&lt;/a&gt;命令。&lt;/p&gt;
+
+&lt;p&gt;此外，打包的库以及TLS CA列表也有一些更新。&lt;/p&gt;
+
+&lt;p&gt;See &lt;a href=&quot;https://www.ruby-lang.org/en/news/2020/10/02/ruby-2-7-2-released/&quot;&gt;ruby-2.7.2 release notes&lt;/a&gt; as well as the RubyInstaller CHANGELOG files for &lt;a href=&quot;https://github.com/oneclick/rubyinstaller2/blob/master/CHANGELOG-2.5.md#rubyinstaller-258-2---2020-10-06&quot;&gt;RubyInstaller-2.5.8-2&lt;/a&gt;, &lt;a href=&quot;https://github.com/oneclick/rubyinstaller2/blob/master/CHANGELOG-2.6.md#rubyinstaller-266-2---2020-10-06&quot;&gt;RubyInstaller-2.6.6-2&lt;/a&gt; and &lt;a href=&quot;https://github.com/oneclick/rubyinstaller2/blob/master/CHANGELOG-2.7.md#rubyinstaller-272-1---2020-10-06&quot;&gt;RubyInstaller-2.7.2-1&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;不幸的是当前主要的MSYS2包服务器&lt;a href=&quot;https://repo.msys2.org&quot;&gt;https://repo.msys2.org&lt;/a&gt;处于宕机中。其他可选的hosts会被&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pacman&lt;/code&gt;自动选中，但是这个过程会等待很久。
+为了避免这个延迟，你也许你可以将host注释掉(下方的第一个命令)，并查看剩余的hosts(下方的第二个命令)&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ridk exec sh -c &quot;sed -e &apos;/repo.msys2.org/ s/Serv/#Serv/&apos; -i /etc/pacman.d/mirrorlist.*&quot;
+ridk exec sh -c &quot;cat /etc/pacman.d/mirrorlist.*&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;所有的文件都可以在&lt;a href=&quot;/downloads/&quot;&gt;下载页面&lt;/a&gt;找到!&lt;/p&gt;</content><author><name>Lars Kanis，ccmywish</name></author><summary type="html">RubyInstaller 版本 2.7.2-1, 2.6.6-2 和 2.5.8-2 发布了!这些是维护版本(主要修复bug以及安全问题)</summary></entry></feed>
